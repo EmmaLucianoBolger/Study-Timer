@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="timerbg.jpg">
+  <link href="https://fonts.cdnfonts.com/css/colakind" rel="stylesheet">
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/colakind');
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Study Timer</h1>
+
+  <input type="number" id="minutesInput" placeholder="Minutes" min="0">
+  <button onclick="setTimer()">Set Timer</button>
+
+  <div id="timer">00:00</div>
+
+  <div class="buttons">
+    <button onclick="startTimer()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+
+  <!-- Alarm Sound -->
+  <audio id="alarmSound" src="alarm.mp3"></audio>
+  <!--Music track: Home by Lukrembo
+Source: https://freetouse.com/music
+Free To Use Music for Videos-->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

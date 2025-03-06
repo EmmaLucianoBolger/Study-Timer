@@ -1,0 +1,52 @@
+body {
+    font-family: 'ColaKind', sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('timerbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #d5abcc;
+    color: #aad0da;
+    text-align: center;
+}
+h1 {
+    font-size: 7rem;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 812px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #aad0da;
+    border-radius: 5px;
+}
+
+#timer {
+    font-size: 7rem;
+    margin: 20px 0;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 5rem;
+    cursor: pointer;
+    border: none;
+    background-color: #aad0da;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #80adc3;
+}
